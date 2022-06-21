@@ -56,6 +56,8 @@ export const createNestServer = async (expressInstance: express.Express) => {
   // await app.listen(port);
 
   app.init();
+  console.log(process.env.NODE_ENV);
+  console.log(process.env.PORT);
 
   return app;
 };

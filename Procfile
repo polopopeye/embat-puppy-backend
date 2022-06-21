@@ -1,1 +1,1 @@
-web: npm run nest:start:prod
+web: npm run start
