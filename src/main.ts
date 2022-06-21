@@ -41,6 +41,7 @@ export const createNestServer = async (expressInstance: express.Express) => {
     .setTitle('API')
     .setDescription('API Backend|| Embat Puppy')
     .setVersion('1.0')
+    .addServer('https://us-central1-embat-puppy-fb.cloudfunctions.net/api/')
     .addServer('/embat-puppy-fb/us-central1/api')
     .build();
 
