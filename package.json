@@ -15,7 +15,7 @@
     "nest:start:dev": "nest start --watch",
     "nest:dev": "nest start --watch",
     "nest:start:debug": "nest start --debug --watch",
-    "nest:start:prod": "node dist/main",
+    "nest:start:prod": "npm run nest:build && node dist/main",
     "fb:build": "tsc",
     "fb:serve": "firebase serve --only functions",
     "fb:shell": "firebase functions:shell",
