@@ -1,1 +1,3 @@
-web: npm run nest:build && npm run nest:start:prod
+web: npm run nest:prebuild
+web: npm run nest:build
+web: npm run nest:start:prod
