@@ -52,14 +52,7 @@ export const createNestServer = async (expressInstance: express.Express) => {
   app.use(urlencoded({ extended: true, limit: '50mb' }));
   app.enableCors();
 
-  // const port = process.env.PORT || 3002;
-  // await app.listen(port);
-
-  app.init();
-  console.log(process.env.NODE_ENV);
-  console.log(process.env.PORT);
-
-  return app;
+  return app.init();
 };
 
 createNestServer(server)

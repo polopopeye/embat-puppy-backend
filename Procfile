@@ -1,1 +1,1 @@
-web: npm run start
+web: firebase serve --only functions
