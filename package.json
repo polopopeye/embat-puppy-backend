@@ -13,6 +13,7 @@
     "nest:build": "nest build",
     "nest:start": "nest start",
     "nest:start:dev": "nest start --watch",
+    "nest:dev": "nest start --watch",
     "nest:start:debug": "nest start --debug --watch",
     "nest:start:prod": "node dist/main",
     "fb:build": "tsc",
